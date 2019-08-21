@@ -1,0 +1,27 @@
+{
+  "name": "webauth-i-challenge",
+  "version": "1.0.0",
+  "description": "- Authentication.\r - Express Middleware.\r - Password Hashing.\r - Sessions\r - Cookies",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.1",
+    "knex": "^0.19.2",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErnestoPena/webauth-i-challenge.git"
+  },
+  "author": "Ernesto Pena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErnestoPena/webauth-i-challenge/issues"
+  },
+  "homepage": "https://github.com/ErnestoPena/webauth-i-challenge#readme"
+}
