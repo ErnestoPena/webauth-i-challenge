@@ -5,8 +5,15 @@ const userRouter = require('./api/userRouter');
 const loginRouter = require('./api/loginRouter');
 const registerRouter = require('./api/registerRouter');
 
-const port = 9000;
 server.use(express.json());
+
+//STRETCH
+const protectedRouter = require('./api/protectedRouter');
+server.use(`/api/restricted` , protectedRouter); ///${/.*/}
+//End od Stretch
+
+const port = 9000;
+
 
 server.use('/api/users' , userRouter);
 server.use('/api/login' , loginRouter);
